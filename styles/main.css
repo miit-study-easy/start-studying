@@ -1,0 +1,19 @@
+.logo {
+	background-color: antiquewhite;
+	margin-bottom: auto;
+	width: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo-container {
+	background-color: antiquewhite;
+}
+
+.page-title {
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 35px;
+	color: rgb(50, 50, 174);
+}
