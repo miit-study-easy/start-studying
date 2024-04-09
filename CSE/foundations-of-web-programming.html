@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="../styles/main.css">
+		<link rel="stylesheet" href="../styles/foundations-of-web-programming.css">
+		<title>Foundations of Web Programming</title>
+	</head>
+	<body>
+		<header>Foundations of Web Programming</header>
+
+		<input type="button" value="Back to main page" class="return-button js-return-button">
+
+		<div class="box">
+			<div class="subtitle">Course Summary</div>
+			<div>Learn the basics of HTML, CSS, and JavaScript</div> <br>
+			<div style="color: red;">Disclaimer: This webpage contains only a brief summary of web programming. <br>To learn more in detail, check out the lectures uploaded on LMS.</div>
+		</div>
+
+		<div class="box">
+			<div class="subtitle">Reference Books</div>
+			<div>
+				<ol>
+					<li>Web Development and Design Foundations with HTML5 (6th Edition)</li>
+					<li>Step by Step HTML5</li>
+					<li>JavaScript Step by Step 2nd Edition</li>
+				</ol>
+				<div style="color: red;">All reference books can be found on MIIT LMS</div>
+			</div>
+		</div>
+
+		<div class="box">
+			<div class="subtitle">HTML</div>
+			<ul>
+				<li>HTML => Hyper Text Markup Language</li>
+				<li>has 3 sections</li>
+				<ol>
+					<li>Document Type Definition Statement</li>
+					<li>Head Section</li>
+					<li>Body Section</li>
+				</ol>
+				<li>DocType (DTD) is case-insensitive</li>
+				<li>Syntax:</li>
+				<img src="../images/html-syntax.png" width="500px">
+				<li>There are some elements that do not need closing tags. (no containers) Such elements are called "Stand Alone elements".
+				</li> 
+					<img src="../images/containers-and-no-containers-html-tags.webp" width="500px">
+			</ul>
+		</div>
+
+		<div class="box">
+			<div class="subtitle">CSS</div>
+			<ul>
+				<li>CSS => Cascading Style Sheet</li>
+				<li>Attribute/Tag name => style</li>
+				<li>3 ways to use CSS with HTML</li>
+				<ol>
+					<li>Inline CSS </li>
+					<li>Internal/Embedded CSS</li>
+					<li>External CSS</li>
+					<img src="../images/3-ways-of-CSS.webp" width="500px">
+				</ol>
+				<li>For CLASS attribute: use '.' notation <br>
+				eg; class="my-style" => .my-style {...}</li>
+				<li>For ID attribute: use '#' notation <br>
+				eg; id="my-style" => #mystyle {...}</li>
+			</ul>
+		</div>
+
+		<div class="box">
+			<div class="subtitle">JavaScript</div>
+			<ul>
+				<li>scripting language; unrelated to Java</li>
+				<li>can be inserted within head, body or external .js file</li>
+				<li>Tag name => script</li>
+			</ul>
+		</div>
+
+		<div class="box">
+			<div class="subtitle">Preparation for MCQ</div>
+			<div>For multiple choice part of the exam, practice by testing your knowledge from the following links:</div>
+			<ul>
+				<li><a href="https://www.w3schools.com/html/html_quiz.asp">HTML MCQ</a></li>
+				<li><a href="https://www.w3schools.com/css/css_quiz.asp">CSS MCQ</a></li>
+				<li><a href="https://www.w3schools.com/js/js_quiz.asp">JavaScript MCQ</a></li>
+			</ul>
+		</div>
+
+		<script>
+			document.querySelector('.js-return-button').addEventListener('click', () => {
+				window.location.href = "programming-main.html";
+			});
+		</script>
+	</body>
+</html>
